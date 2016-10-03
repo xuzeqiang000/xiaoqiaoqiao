@@ -25,7 +25,7 @@
  }
  parent.prototype.say =function () {
     console.dir(this.name);
- }
+ };
 function children() {
  this.name ='children';
 }
@@ -36,5 +36,5 @@ util.inherits(children,parent);
  console.log(util.isRegExp(/\w+/));
  console.log(util.isDate(new Date));
  console.log(util.isError(new Error));
-alert("桥桥")
-})()
+
+})();
